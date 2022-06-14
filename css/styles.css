@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Charis SIL', serif;
+    color: #3c3c3c;
+}
+
+.base{
+    width: 100%;
+    height: 930px;
+    background-color: #eee6ff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #645454;
+    margin-right: 50px;
+    height: 10%;
+    font-size: 34px;
+    width: 100%;
+}
+
+.content_out{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+.c_o_text{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.c_o_buttons{
+    display: flex;
+}
+
+.logI{
+    border: 3px solid #645454;
+    text-align: center;
+    border-radius: 30px;
+    width: 185px;
+    height: 75px;
+    font-size: 40px;
+    margin-right: 40px;
+}
+
+.logI a{
+    text-decoration: none;
+}
+
+.logI:hover{
+    transition: 0.4s;
+    background-color: #939393;
+}
+
+.SignU{
+    border: 3px solid #645454;
+    text-align: center;
+    border-radius: 30px;
+    width: 185px;
+    height: 75px;
+    font-size: 40px;
+    text-decoration: none;
+}
+
+.SignU a{
+    text-decoration: none;
+}
+
+.SignU:hover{
+    transition: 0.4s;
+    background-color: #939393;
+}
+
+.SignU_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+.SignU_text{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.sign_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name{
+    width: 500px;
+    height: 30px;
+    border: 1px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.email{
+    width: 500px;
+    height: 30px;
+    border: 1px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.password{
+    width: 500px;
+    height: 30px;
+    border: 1px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.c_password{
+    width: 500px;
+    height: 30px;
+    border: 1px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.reg{
+    border: 3px solid #645454;
+    background-color: #eee6ff;
+    text-align: center;
+    border-radius: 30px;
+    width: 185px;
+    height: 84px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.reg a{
+    text-decoration: none;
+}
+
+.reg:hover{
+    transition: 0.4s;
+    background-color: #939393;
+}
+
+.r_complete{
+    border: 3px solid #645454;
+    background-color: #66c151;
+    text-align: center;
+    border-radius: 30px;
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-right: 14px;
+}
+
+.r_error{
+    border: 3px solid #645454;
+    background-color: #ee2d24;
+    text-align: center;
+    border-radius: 30px;
+    width: 100%;
+    height: 44px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-right: 14px;
+}
+
+.back{
+    border: 3px solid #645454;
+    text-align: center;
+    border-radius: 30px;
+    width: 158px;
+    height: 62px;
+    font-size: 33px;
+    text-decoration: none;
+}
+
+.back a{
+    text-decoration: none;
+}
+
+.back:hover{
+    transition: 0.4s;
+    background-color: #939393;
+}
