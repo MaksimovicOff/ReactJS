@@ -12,9 +12,25 @@
 <body>
 <div class="base">
 	<?php
+	session_start();
 	include_once 'pages/header.html';
-	include_once 'pages/content_out.html';
+	include_once 'pages/db.php';
+	if ($_SESSION['user']) {
+		header("Location:pages/lk.php");
+	}
+	else {?>
+		<div class="content_out">
+			<div class="c_o_text">
+				Зарегистрируйтесь<br>или<br>Авторизируйтесь
+			</div>
+			<div class="c_o_buttons">
+				<div class="logI"><a href="pages/Log_I.php">Log In</a></div>
+				<div class="SignU"><a href="pages/Sign_U.php">Sign Up</a></div>
+		</div><?
+		session_unset();
+	}
 	?>
+</div>
 </div>
 </body>
 </html>
