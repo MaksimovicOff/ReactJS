@@ -28,6 +28,6 @@
 	</div>
 </div>
 </body>
-</html>
 <script src="../jquery-3.6.0.min.js"></script>
 <script src="sign_up.js"></script>
+</html>
