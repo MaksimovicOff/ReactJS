@@ -207,3 +207,279 @@
     transition: 0.4s;
     background-color: #939393;
 }
+
+.LogI_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+.LogI_text{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.LogI_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.log{
+    border: 3px solid #645454;
+    background-color: #eee6ff;
+    text-align: center;
+    border-radius: 30px;
+    width: 185px;
+    height: 84px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.log a{
+    text-decoration: none;
+}
+
+.log:hover{
+    transition: 0.4s;
+    background-color: #939393;
+}
+
+.back1{
+    border: 3px solid #645454;
+    text-align: center;
+    border-radius: 30px;
+    width: 158px;
+    height: 47px;
+    font-size: 33px;
+    text-decoration: none;
+}
+
+.back1 a{
+    text-decoration: none;
+}
+
+.back1:hover{
+    transition: 0.4s;
+    background-color: #939393;
+}
+
+.content_lk{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 90%;
+}
+
+.header_lk{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    border-bottom: 1px solid #645454;
+    height: 14%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.header_lk_t{
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.game{
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    height: 15%;
+    border-bottom: 1px solid #645454;
+}
+
+.start{
+    border: 3px solid #645454;
+    background-color: #eee6ff;
+    text-align: center;
+    border-radius: 30px;
+    width: 185px;
+    height: 84px;
+    font-size: 34px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.start:hover{
+    transition: 0.4s;
+    background-color: #939393;
+}
+
+.game_name{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.check
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#task
+{
+    font-size: 28px;
+}
+
+#answer{
+    min-width: 300px;
+}
+
+.answer_button{
+    border: 2px solid #645454;
+    background-color: #eee6ff;
+    text-align: center;
+    border-radius: 17px;
+    width: 152px;
+    height: 54px;
+    font-size: 28px;
+}
+
+.answer_button:hover{
+    transition: 0.4s;
+    background-color: #939393;
+}
+
+.round
+{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.game_b{
+    border: 2px solid #645454;
+    background-color: #eee6ff;
+    text-align: center;
+    border-radius: 17px;
+    width: 152px;
+    height: 54px;
+    font-size: 28px;
+}
+
+.game_b a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+.sv
+{
+    width: 7%;
+    align-self: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 0px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+    font-family: 'Oxygen', sans-serif;
+    transition: 0.3s all;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s all;
+}
+.sv:hover
+{
+    filter: brightness(.8);
+    transition: .3s all;
+}
+.ex
+{
+    width: 7%;
+    align-self: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 0px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+    font-family: 'Oxygen', sans-serif;
+    transition: 0.3s all;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s all;
+}
+.ex:hover
+{
+    filter: brightness(.8);
+    transition: .3s all;
+}
+.ab
+{
+    width: 7%;
+    align-self: center;
+    padding: 10px;
+    background-color: cornflowerblue;
+    border: 0px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+    font-family: 'Oxygen', sans-serif;
+    transition: 0.3s all;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s all;
+}
+.ab:hover
+{
+    filter: brightness(.8);
+    transition: .3s all;
+}
+#correct
+{
+    font-size: 72px;
+}
+#incorrect
+{
+    font-size: 72px;
+}
+#space
+{
+    font-size: 72px;
+}
+
+
+
+.task
+{
+    display: inline-block;
+    min-height: 100%;
+}
+
+
+.gou
+{
+    display: block;
+}
+.mant
+{
+    display: none;
+}
