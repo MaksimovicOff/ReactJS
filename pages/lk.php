@@ -27,19 +27,16 @@
 		</div>
 		<form action="game.php" class="game">
         	<button class="start">Start</button>
-      	</form>
+    </form>
+    <div class="stat">
+    	<div class="stat_text">Статистика</div>
+    	<div class="last">
+    		<div class="last_text">Последний резуьтат</div>
+    		<div class="result"></div>
+    	</div>
+    </div>
 	</div>
 </div>
-<script>
-    const fromStorage = localStorage.getItem('result');
-    if (fromStorage) {
-      document.querySelector('.result').innerHTML = fromStorage;
-    }
-
-    const gou = localStorage.getItem('gou');
-      document.querySelector('.results').style.display = 'inline-block';
-      document.querySelector('.results').innerHTML = gou;
-
-  </script>
+<script src="lk.js"></script>
 </body>
 </html>
