@@ -16,7 +16,7 @@ $_SESSION['user'] = [
 ];
 if ($email && $password) {
   if ($count == 1) {
-    echo "Здравствуйте!";
+    header("Location:../pages/lk.php");
   }
   else
   {
