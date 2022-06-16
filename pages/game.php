@@ -20,9 +20,10 @@
         <div>
             <div class="task"><span id="task"></span></div>
             <input type="text" id="answer">
-            <input type="button" value="Ответить" onclick="check()" class="answer_button"><br>
+            <input type="button" value="Ответить" onclick="check()" class="answer_button">
+            <button class="save1">Сохранить</button><br>
         </div>
-        <div>
+        <div class="game_b_m">
             <div class="game_b"><a href="lk.php">Назад</a></div>
         </div>
     </div>
