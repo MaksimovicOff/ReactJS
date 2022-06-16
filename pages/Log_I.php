@@ -17,8 +17,8 @@
   <div class="LogI_content">
     <div class="LogI_text">Авторизация</div>
     <form method="POST" class="LogI_form" action="auth.php">
-        <input type="email" class="email" placeholder="Email"><br>
-        <input type="password" class="password" placeholder="Password"><br>
+        <input type="email" class="email" placeholder="Email" name="email"><br>
+        <input type="password" class="password" placeholder="Password" name="password"><br>
         <button class="log">Log In</button>
     </form>
     <div id="result"></div>
@@ -27,21 +27,5 @@
 </div>
 </body>
 <script src="../jquery-3.6.0.min.js"></script>
-<script>
-  $('button').on('click', function(){
-    const email = $('input.email').val();
-    const password = $('input.password').val();
-    localStorage.setItem('email', email);
-    localStorage.setItem('password', password);
-  })
-function Auto() {
-  const fromStorage = localStorage.getItem('email');
-  const fromStorage1 = localStorage.getItem('password');
-  if (fromStorage || fromStorage1) {
-    $('input.email').val(fromStorage);
-    $('input.password').val(fromStorage1);
-  }
-}
-Auto();
-</script>
+<script src="log_in.js"></script>
 </html>
