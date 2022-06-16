@@ -16,7 +16,7 @@ $_SESSION['user'] = [
 ];
 if ($email && $password) {
   if ($count == 1) {
-    header("Location:../pages/lk.php");
+    header("Location:lk.php");
   }
   else
   {
