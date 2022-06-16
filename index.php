@@ -13,6 +13,7 @@
 <div class="base">
 	<?php
 	session_start();
+	error_reporting(0);
 	include_once 'pages/header.html';
 	include_once 'pages/db.php';
 	if ($_SESSION['user']) {
