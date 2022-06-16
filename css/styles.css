@@ -256,7 +256,7 @@
     text-align: center;
     border-radius: 30px;
     width: 158px;
-    height: 47px;
+    height: 62px;
     font-size: 33px;
     text-decoration: none;
 }
@@ -326,15 +326,13 @@
     margin-bottom: 20px;
 }
 
-.check
-{
+.check{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
-#task
-{
+#task{
     font-size: 28px;
 }
 
@@ -357,8 +355,7 @@
     background-color: #939393;
 }
 
-.round
-{
+.round{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 20px;
@@ -382,21 +379,52 @@
     text-decoration: none;
 }
 
-.task
-{
+.task{
     display: inline-block;
     min-height: 100%;
 }
 
-#correct
-{
+#correct{
     font-size: 72px;
 }
-#incorrect
-{
+#incorrect{
     font-size: 72px;
 }
-#space
-{
+#space{
     font-size: 72px;
+}
+
+.stat_text{
+    font-size: 34px;
+}
+
+.save1{
+    border: 2px solid #645454;
+    background-color: #eee6ff;
+    text-align: center;
+    border-radius: 17px;
+    width: 152px;
+    height: 54px;
+    font-size: 28px;
+}
+
+.save1:hover{
+    transition: 0.4s;
+    background-color: #939393;
+}
+
+.game_b_m{
+    margin-top: 20px;
+}
+
+.last_text{
+    font-size: 20px;
+}
+
+.result{
+    text-align: center;
+}
+
+.gou{
+    display: block;
 }
