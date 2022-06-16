@@ -1,4 +1,5 @@
 <?php
+session_unset();
 session_start();
 require 'db.php';
 $email = $_POST['email'];
@@ -15,7 +16,7 @@ $_SESSION['user'] = [
 ];
 if ($email && $password) {
   if ($count == 1) {
-    header("Location:../");
+    echo "Здравствуйте!";
   }
   else
   {
