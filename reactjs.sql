@@ -39,7 +39,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`) VALUES
-(1, 'admin', 'admin', 'admin'),
+(1, 'admin', 'admin@admin', 'admin'),
 (2, 'sdgsdgds', 'gsd', '45234'),
 (3, 'safasf', 'safasf', '555');
 
